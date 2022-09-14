@@ -3,6 +3,7 @@ import {ko} from 'date-fns/locale';
 import React from 'react';
 import {Platform, Pressable, StyleSheet, Text} from 'react-native';
 
+//인스타처럼 날짜 쓰기 ~> 방금 전, 1시간 전 etc...
 function formatDate(date) {
   const d = new Date(date);
   const now = Date.now();
