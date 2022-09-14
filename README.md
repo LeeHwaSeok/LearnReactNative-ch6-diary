@@ -1,4 +1,4 @@
-# MAKE TODOLIST for React native
+# MAKE journal for React native
 
 #notion
 https://grape-tumbleweed-a41.notion.site/3-9-5-onToggle-AsyncStorage-Promise-async-and-await-0944b98fe2e041a0837ae4f9c0ad893c
