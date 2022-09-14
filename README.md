@@ -1,7 +1,7 @@
 # MAKE journal for React native
 
 #notion
-https://grape-tumbleweed-a41.notion.site/3-9-5-onToggle-AsyncStorage-Promise-async-and-await-0944b98fe2e041a0837ae4f9c0ad893c
+https://grape-tumbleweed-a41.notion.site/8-9-14-ch6-feat-Component-directory-5022b84a650244cea4239cf779b82247
 
 #실행화면
 ![2](https://user-images.githubusercontent.com/58411932/188404025-677f6978-ca8b-47dd-aad1-2b1f6d257330.png)
