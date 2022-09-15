@@ -1,3 +1,4 @@
+import {useNavigation} from '@react-navigation/native';
 import {format, formatDistanceToNow} from 'date-fns';
 import {ko} from 'date-fns/locale';
 import React from 'react';
@@ -30,13 +31,25 @@ function truncate(text) {
 
 function FeedListItem({log}) {
   const {title, body, date} = log; //객체를 분할할당 python 처럼 쓰면 됨
+
+  //(modify)데이터 수정을 위한 기능 => Write
+  const navigation = useNavigation();
+  const onPress = () => {
+    navigation.navigate('Write', {
+      log,
+    });
+  };
+
   return (
     <Pressable
+      //Pressable에서는 눌려진 상태를 pressed로 사용한다.
+      //현재 항목을 눌렸을 때의 반응이다.
       style={({pressed}) => [
         styles.block,
         Platform.OS === 'ios' && pressed && {backgroundColor: '#efefef'},
       ]}
-      android_ripple={{color: '#ededed'}}>
+      android_ripple={{color: '#ededed'}}
+      onPress={onPress}>
       <Text style={styles.date}>{formatDate(date)}</Text>
       <Text style={styles.title}>{title}</Text>
       <Text style={styles.body}>{truncate(body)}</Text>
