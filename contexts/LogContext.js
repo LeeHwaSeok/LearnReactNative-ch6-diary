@@ -1,11 +1,14 @@
-import React from 'react';
+import React, {useEffect, useRef} from 'react';
 import {createContext, useState} from 'react';
 // crypto 기능을 위해 uuidv4를 사용함
 import {v4 as uuidv4} from 'uuid';
+import logsStorage from '../storages/logsStorage';
 
 const LogContext = createContext();
 
 export function LogContextProvider({children}) {
+  const initialLogsRef = useRef(null);
+
   //데이터 수정
   //map으로 불변성을 지키면서 원하는 항목만 교체할 수 있다.
   const onModify = modified => {
@@ -46,6 +49,25 @@ export function LogContextProvider({children}) {
     //spread 앞에 log를 선언하면 새로운 객체가 항상 맨 앞에 추가됨
     setLogs([log, ...logs]);
   };
+
+  //Async 사용해서 데이터 저장 및 부르기
+  //IIFE 패턴이랍니다
+  useEffect(() => {
+    (async () => {
+      const savedLogs = await logsStorage.get();
+      if (savedLogs) {
+        initialLogsRef.current = savedLogs;
+        setLogs(savedLogs);
+      }
+    })();
+  }, []);
+
+  useEffect(() => {
+    if (logs === initialLogsRef.current) {
+      return;
+    }
+    logsStorage.set(logs);
+  }, [logs]);
 
   return (
     //전역에서 데이터를 사용할 수 있게 Logcontext.Provider를 통해 데이터 뿌리기

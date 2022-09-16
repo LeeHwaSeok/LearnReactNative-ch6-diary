@@ -14,6 +14,8 @@ function WriteScreen({route}) {
   const [body, setBody] = useState(log?.body ?? '');
   const navigation = useNavigation();
 
+  const [date, setDate] = useState(log ? new Date(log.date) : new Date());
+
   //Context에서 crud데이터를 받아오겠다는 얘기
   const {onCreate, onModify, onRemove} = useContext(LogContext);
 
@@ -22,7 +24,7 @@ function WriteScreen({route}) {
     if (log) {
       onModify({
         id: log.id,
-        date: log.date,
+        date: date.toISOString(),
         title,
         body,
       });
@@ -31,7 +33,7 @@ function WriteScreen({route}) {
         title,
         body,
         //toISOString으로 문자로 받아옴
-        date: new Date().toISOString(),
+        date: date.toISOString(),
       });
     }
     navigation.pop();
@@ -68,6 +70,8 @@ function WriteScreen({route}) {
         onAskRemove={onAskRemove}
         //log값이 유효하면 true, null, undefined면 false
         isEditing={!!log}
+        date={date}
+        onChangeDate={setDate}
       />
       <WriteEditor
         title={title}
