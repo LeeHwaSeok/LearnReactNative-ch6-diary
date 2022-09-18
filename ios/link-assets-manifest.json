@@ -1,0 +1,49 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Cafe24Ssurround.ttf",
+      "sha1": "cfa785ae62a9386830c1c5acc165275418f60aee"
+    },
+    {
+      "path": "assets/fonts/GmarketSansBold.otf",
+      "sha1": "017d9458fd2a064694e7385b9d5a830856ef256b"
+    },
+    {
+      "path": "assets/fonts/GmarketSansMedium.otf",
+      "sha1": "bbda3c04c05e602cf59609e1e095bb6d769606f8"
+    },
+    {
+      "path": "assets/fonts/NotoSansCJKkr-Black.otf",
+      "sha1": "f00feedb22251a363e3106c3c4c1cec2256446a1"
+    },
+    {
+      "path": "assets/fonts/NotoSansCJKkr-Bold.otf",
+      "sha1": "a07030c76a486dc4a2c79d5075ddfbc7e550bfb7"
+    },
+    {
+      "path": "assets/fonts/NotoSansCJKkr-DemiLight.otf",
+      "sha1": "5f9b538624b8b27eb5a2b332446d77d506d5c3e4"
+    },
+    {
+      "path": "assets/fonts/NotoSansCJKkr-Light.otf",
+      "sha1": "ba6a41982c66cc40454dbaac4c13d51c350e0753"
+    },
+    {
+      "path": "assets/fonts/NotoSansCJKkr-Medium.otf",
+      "sha1": "9de583ad7957e967054f8d820f982132b36c4ff9"
+    },
+    {
+      "path": "assets/fonts/NotoSansCJKkr-Regular.otf",
+      "sha1": "ebbc1fbb8b96d5c827c584b801059e4aef9a01ec"
+    },
+    {
+      "path": "assets/fonts/NotoSansCJKkr-Thin.otf",
+      "sha1": "3542b4d7cf36808fc781909d7ca5d736b1c325af"
+    },
+    {
+      "path": "assets/fonts/OpenSans-SemiBold.ttf",
+      "sha1": "e256f8391718ef61f253dfb4e95bbeb3c5857afc"
+    }
+  ]
+}

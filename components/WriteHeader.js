@@ -7,6 +7,7 @@ import TransparentCircleButton from './TransparentCircleButton';
 import DateTimePickerModal from 'react-native-modal-datetime-picker';
 
 const initialState = {mode: 'date', visible: false};
+
 function reducer(state, action) {
   switch (action.type) {
     case 'open':
@@ -64,11 +65,15 @@ function WriteHeader({onSave, onAskRemove, isEditing, date, onChangeDate}) {
       </View>
       <View style={styles.center}>
         <Pressable onPress={() => open('date')}>
-          <Text>{format(new Date(date), 'PPP', {locale: ko})}</Text>
+          <Text style={StyleSheet.create({fontSize: 18, color: '#2e8b57'})}>
+            {format(new Date(date), 'PPP', {locale: ko})}
+          </Text>
         </Pressable>
         <View style={styles.separator} />
         <Pressable onPress={() => open('time')}>
-          <Text>{format(new Date(date), 'p', {locale: ko})}</Text>
+          <Text style={StyleSheet.create({fontSize: 17, color: '#3cb371'})}>
+            {format(new Date(date), 'p', {locale: ko})}
+          </Text>
         </Pressable>
       </View>
       <DateTimePickerModal

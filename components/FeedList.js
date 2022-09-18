@@ -2,6 +2,7 @@ import React from 'react';
 import {FlatList, StyleSheet, View} from 'react-native';
 import FeedListItem from './FeedListItem';
 
+//현재 피드 위치를 기준으로 바닥에 가까우면 초록 버튼을 숨겨주는 역할을 함.
 function FeedList({logs, onScrolledToBottom, ListHeaderComponent}) {
   const onScroll = e => {
     if (!onScrolledToBottom) {

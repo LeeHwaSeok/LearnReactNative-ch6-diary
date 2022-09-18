@@ -14,6 +14,17 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-LearnReactNative-LearnReactNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-LearnReactNative-LearnReactNativeTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B1F12BE431954CDBAB54210A /* GmarketSansBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE294DF4FCBF468AB0739824 /* GmarketSansBold.otf */; };
+		29BAF545ED854CFBA5602CF8 /* GmarketSansMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B669403A12C46C59D7A70D3 /* GmarketSansMedium.otf */; };
+		6DB0B2CC44694910AE7EA28E /* NotoSansCJKkr-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 855F4E11B20548349B5B55B6 /* NotoSansCJKkr-Black.otf */; };
+		02DE122ADC1D48399FAB5354 /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C2C9E3A62374EA7B31D29E1 /* NotoSansCJKkr-Bold.otf */; };
+		5102113B39E541948D3791B5 /* NotoSansCJKkr-DemiLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2A49E6622FA9420FB94110F4 /* NotoSansCJKkr-DemiLight.otf */; };
+		64BA8791815B404982DCBCDA /* NotoSansCJKkr-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F852B50797A54905A161FEA9 /* NotoSansCJKkr-Light.otf */; };
+		0E98502E11904001B067A586 /* NotoSansCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9E11302C958C448BB2DACEF3 /* NotoSansCJKkr-Medium.otf */; };
+		506CF404B2084E5B92B6265C /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC60617791324DC784A46083 /* NotoSansCJKkr-Regular.otf */; };
+		BF29597CDDCC4AA1978520E2 /* NotoSansCJKkr-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 26D72C1A01F545A0BEDFEE62 /* NotoSansCJKkr-Thin.otf */; };
+		EEB52727908846978ECC5B97 /* Cafe24Ssurround.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABA8F20350204DC5AAA61990 /* Cafe24Ssurround.ttf */; };
+		33AFDFD04CD945129D51BB4D /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69FFC287A8AF4888889E1343 /* OpenSans-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,17 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LearnReactNative/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-LearnReactNative-LearnReactNativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnReactNative-LearnReactNativeTests.release.xcconfig"; path = "Target Support Files/Pods-LearnReactNative-LearnReactNativeTests/Pods-LearnReactNative-LearnReactNativeTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		AE294DF4FCBF468AB0739824 /* GmarketSansBold.otf */ = {isa = PBXFileReference; name = "GmarketSansBold.otf"; path = "../assets/fonts/GmarketSansBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8B669403A12C46C59D7A70D3 /* GmarketSansMedium.otf */ = {isa = PBXFileReference; name = "GmarketSansMedium.otf"; path = "../assets/fonts/GmarketSansMedium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		855F4E11B20548349B5B55B6 /* NotoSansCJKkr-Black.otf */ = {isa = PBXFileReference; name = "NotoSansCJKkr-Black.otf"; path = "../assets/fonts/NotoSansCJKkr-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8C2C9E3A62374EA7B31D29E1 /* NotoSansCJKkr-Bold.otf */ = {isa = PBXFileReference; name = "NotoSansCJKkr-Bold.otf"; path = "../assets/fonts/NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2A49E6622FA9420FB94110F4 /* NotoSansCJKkr-DemiLight.otf */ = {isa = PBXFileReference; name = "NotoSansCJKkr-DemiLight.otf"; path = "../assets/fonts/NotoSansCJKkr-DemiLight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F852B50797A54905A161FEA9 /* NotoSansCJKkr-Light.otf */ = {isa = PBXFileReference; name = "NotoSansCJKkr-Light.otf"; path = "../assets/fonts/NotoSansCJKkr-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9E11302C958C448BB2DACEF3 /* NotoSansCJKkr-Medium.otf */ = {isa = PBXFileReference; name = "NotoSansCJKkr-Medium.otf"; path = "../assets/fonts/NotoSansCJKkr-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DC60617791324DC784A46083 /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; name = "NotoSansCJKkr-Regular.otf"; path = "../assets/fonts/NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		26D72C1A01F545A0BEDFEE62 /* NotoSansCJKkr-Thin.otf */ = {isa = PBXFileReference; name = "NotoSansCJKkr-Thin.otf"; path = "../assets/fonts/NotoSansCJKkr-Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ABA8F20350204DC5AAA61990 /* Cafe24Ssurround.ttf */ = {isa = PBXFileReference; name = "Cafe24Ssurround.ttf"; path = "../assets/fonts/Cafe24Ssurround.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		69FFC287A8AF4888889E1343 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "OpenSans-SemiBold.ttf"; path = "../assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +144,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				4AA29A0BF96C4878BA088B87 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +170,25 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		4AA29A0BF96C4878BA088B87 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				AE294DF4FCBF468AB0739824 /* GmarketSansBold.otf */,
+				8B669403A12C46C59D7A70D3 /* GmarketSansMedium.otf */,
+				855F4E11B20548349B5B55B6 /* NotoSansCJKkr-Black.otf */,
+				8C2C9E3A62374EA7B31D29E1 /* NotoSansCJKkr-Bold.otf */,
+				2A49E6622FA9420FB94110F4 /* NotoSansCJKkr-DemiLight.otf */,
+				F852B50797A54905A161FEA9 /* NotoSansCJKkr-Light.otf */,
+				9E11302C958C448BB2DACEF3 /* NotoSansCJKkr-Medium.otf */,
+				DC60617791324DC784A46083 /* NotoSansCJKkr-Regular.otf */,
+				26D72C1A01F545A0BEDFEE62 /* NotoSansCJKkr-Thin.otf */,
+				ABA8F20350204DC5AAA61990 /* Cafe24Ssurround.ttf */,
+				69FFC287A8AF4888889E1343 /* OpenSans-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +286,17 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				B1F12BE431954CDBAB54210A /* GmarketSansBold.otf in Resources */,
+				29BAF545ED854CFBA5602CF8 /* GmarketSansMedium.otf in Resources */,
+				6DB0B2CC44694910AE7EA28E /* NotoSansCJKkr-Black.otf in Resources */,
+				02DE122ADC1D48399FAB5354 /* NotoSansCJKkr-Bold.otf in Resources */,
+				5102113B39E541948D3791B5 /* NotoSansCJKkr-DemiLight.otf in Resources */,
+				64BA8791815B404982DCBCDA /* NotoSansCJKkr-Light.otf in Resources */,
+				0E98502E11904001B067A586 /* NotoSansCJKkr-Medium.otf in Resources */,
+				506CF404B2084E5B92B6265C /* NotoSansCJKkr-Regular.otf in Resources */,
+				BF29597CDDCC4AA1978520E2 /* NotoSansCJKkr-Thin.otf in Resources */,
+				EEB52727908846978ECC5B97 /* Cafe24Ssurround.ttf in Resources */,
+				33AFDFD04CD945129D51BB4D /* OpenSans-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

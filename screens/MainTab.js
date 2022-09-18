@@ -14,20 +14,31 @@ function MainTab() {
       screenOptions={{
         showLabel: false,
         activeTintColor: '#009688',
+        tabBarHideOnKeyboard: true,
       }}>
       <Tab.Screen
-        name="Feeds"
+        name="김보현 육아 일지🥰"
         component={feedsScreen}
         options={{
+          headerTitleStyle: {
+            // backgroundColor: '#000000',
+            fontSize: 20,
+            fontWeight: 'bold',
+          },
           tabBarIcon: ({color, size}) => (
             <Icon name="view-stream" size={size} color={color} />
           ),
         }}
       />
       <Tab.Screen
-        name="Calendar"
+        name="달력"
         component={CalendarScreen}
         options={{
+          headerTitleStyle: {
+            // backgroundColor: '#000000',
+            fontSize: 20,
+            fontWeight: 'bold',
+          },
           tabBarIcon: ({color, size}) => (
             <Icon name="event" size={size} color={color} />
           ),

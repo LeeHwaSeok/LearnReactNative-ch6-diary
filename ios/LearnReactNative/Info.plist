@@ -36,7 +36,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -51,5 +51,19 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>GmarketSansBold.otf</string>
+		<string>GmarketSansMedium.otf</string>
+		<string>NotoSansCJKkr-Black.otf</string>
+		<string>NotoSansCJKkr-Bold.otf</string>
+		<string>NotoSansCJKkr-DemiLight.otf</string>
+		<string>NotoSansCJKkr-Light.otf</string>
+		<string>NotoSansCJKkr-Medium.otf</string>
+		<string>NotoSansCJKkr-Regular.otf</string>
+		<string>NotoSansCJKkr-Thin.otf</string>
+		<string>Cafe24Ssurround.ttf</string>
+		<string>OpenSans-SemiBold.ttf</string>
+	</array>
 </dict>
 </plist>

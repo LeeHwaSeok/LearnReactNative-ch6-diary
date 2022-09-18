@@ -1,5 +1,6 @@
 import React, {useContext} from 'react';
 import {
+  Keyboard,
   Pressable,
   StyleSheet,
   TextInput,
@@ -27,7 +28,10 @@ function SearchHeader() {
       />
       <Pressable
         style={({pressed}) => [styles.button, pressed && {opacity: 0.5}]}
-        onPress={() => onChangeText('')}>
+        onPress={() => {
+          onChangeText('');
+          Keyboard.dismiss();
+        }}>
         <Icon name="cancel" size={20} color="#9e9e9e" />
       </Pressable>
     </View>

@@ -15,9 +15,10 @@ function WriteEditor({title, body, onChangeTitle, onChangeBody}) {
         onSubmitEditing={() => {
           bodyRef.current.focus();
         }}
+        autoFocus
       />
       <TextInput
-        placeholder="당신의 오늘을 기록해보세요."
+        placeholder="당신의 오늘을 기록해보세요 &#13;&#10;tip)날짜 혹은 시간을 누르면, &#13;&#10;원하는 날짜 혹은 시간으로 변경이 가능합니다."
         style={styles.bodyInput}
         multiline
         textAlignVertical="top"
