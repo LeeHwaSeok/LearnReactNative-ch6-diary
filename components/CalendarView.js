@@ -64,6 +64,7 @@ function CalendarView({markedDates, selectedDate, onSelectDate}) {
       onDayPress={day => {
         onSelectDate(day.dateString);
       }}
+      //showWeekNumbers={true}
       theme={{
         selectedDayBackgroundColor: '#00adf5',
         arrowColor: '#00adf5',
@@ -72,6 +73,16 @@ function CalendarView({markedDates, selectedDate, onSelectDate}) {
 
         monthTextColor: '#000000',
         textMonthFontSize: 20,
+
+        'stylesheet.calendar.header': {
+          dayTextAtIndex0: {
+            color: 'red',
+          },
+          dayTextAtIndex6: {
+            color: 'blue',
+          },
+        },
+        'stylesheet.calendar.': {},
       }}
     />
   );

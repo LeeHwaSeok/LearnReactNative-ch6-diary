@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "804592082326",
+    "project_id": "postman-ba3d6",
+    "storage_bucket": "postman-ba3d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804592082326:android:e808b54f362149729391b7",
+        "android_client_info": {
+          "package_name": "com.osd.fcmapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804592082326-mdvq19qqjkd236vc784hf5rtgi2ml4i4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvq2GnxHAqPri9Gm9W1qC4j5__X_k32hE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804592082326-mdvq19qqjkd236vc784hf5rtgi2ml4i4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

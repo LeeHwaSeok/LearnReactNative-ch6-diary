@@ -29,8 +29,8 @@ export function LogContextProvider({children}) {
     Array.from({length: 5})
       .map((_, index) => ({
         id: uuidv4(),
-        title: `Test ${index}`,
-        body: `Test ${index}`,
+        title: `Test title : ${index}`,
+        body: `Test body : ${index}`,
         date: new Date().toISOString(),
       }))
       .reverse(),
